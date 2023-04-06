@@ -3,6 +3,5 @@
 
 
 ### Setup Enviroment
-* Check Nodejs is installed nod version: `node -v`
-
+* Check Nodejs is installed: `node -v`
 * Install grunt: `sudo npm install -g grunt-cli`
