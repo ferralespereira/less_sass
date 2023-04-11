@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #eeeeee;
+  background-color: #bf0d0d;
 }
 header {
   padding: 10px;
   background-color: #333;
 }
 header > h1 {
-  background-color: #eeeeee;
+  background-color: #bf0d0d;
 }
 header p {
   color: #fff;
@@ -50,14 +50,14 @@ span + span {
 }
 #test-img {
   height: 200px;
-  color: #ff;
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
-  background-color: #ffcc00;
+  background-color: #fc0;
 }
 #test-img-2 {
   color: #333;
-  background-color: #eeeeee;
+  background-color: #bf0d0d;
 }
 #test-img-2:after {
   content: 'Hola LESS.';
@@ -65,18 +65,18 @@ span + span {
 .column-2 {
   float: left;
   box-sizing: border-box;
-  width: 50%;
+  width: 100%/2;
   padding: 10px;
-  border: 1px solid #333333;
-  background-color: #dd9944;
+  border: 1px solid #333;
+  background-color: #ae0000;
 }
 .column-4 {
   float: left;
   box-sizing: border-box;
-  width: 25%;
+  width: 100%/4;
   padding: 10px;
-  border: 1px solid #333333;
-  background-color: #ffc222;
+  border: 1px solid #333;
+  background-color: #110700;
 }
 .special-column {
   border-width: 4px;
@@ -110,7 +110,7 @@ span + span {
   background-position: center, left top;
 }
 .extendido {
-  color: #ff0000;
+  color: red;
 }
 .extendido {
   border: 1px solid #ccc;
@@ -174,10 +174,10 @@ span + span {
 }
 article {
   border: 10px 5px;
-  padding: 3.33333333px;
+  padding: 50px/15;
 }
 p.especial {
-  border-color: #ffcc00;
+  border-color: #fc0;
 }
 header {
   color: #333;
@@ -194,5 +194,5 @@ html.old footer {
 }
 .elemento2 {
   text-align: left;
-  background-color: #0000ff;
+  background-color: blue;
 }
